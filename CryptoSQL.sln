@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoSql", "CryptoSQL\CryptoSql.csproj", "{2EBCCAB4-59FF-4BA6-96B0-5496CF8FFDA4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoSql.MySql", "CryptoSql.MySql\CryptoSql.MySql.csproj", "{CD26DF3D-B456-46AD-A1EB-307307602CD6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{1C0924B8-E9AB-41C3-B2FF-C79C8D63D297}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoSql.MySql.Tests", "CryptoSql.MySql.Tests\CryptoSql.MySql.Tests.csproj", "{27434400-7CC1-4C49-AE77-3D2C0C1F600C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoSql.MySql.Extensions", "CryptoSql.MySql.Extensions\CryptoSql.MySql.Extensions.csproj", "{B5313666-7CC2-47E8-9C31-AD3D3F7E0473}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoSql.MySql.Extensions.Tests", "CryptoSql.MySql.Extensions.Tests\CryptoSql.MySql.Extensions.Tests.csproj", "{AE88CB16-AAD3-428C-8600-CC95C072D6AF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoSql.Common", "CryptoSql.Common\CryptoSql.Common.csproj", "{35C3DB6E-1113-47FF-8F71-FCC09548B09B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoSql.Blockchain.Ethereum", "CryptoSql.Blockchain.Ethereum\CryptoSql.Blockchain.Ethereum.csproj", "{5FE7C4BB-1C1F-4932-A2DB-900ECE7AFA11}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoSql.Blockchain.Ethereum.Tests", "CryptoSql.Blockchain.Ethereum.Tests\CryptoSql.Blockchain.Ethereum.Tests.csproj", "{319664A8-37E6-418C-925C-CF6947604825}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoSql.Common.Extensions", "CryptoSql.Common.Extensions\CryptoSql.Common.Extensions.csproj", "{130E92DC-2A22-4649-A892-77B5018E6DE3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2EBCCAB4-59FF-4BA6-96B0-5496CF8FFDA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EBCCAB4-59FF-4BA6-96B0-5496CF8FFDA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EBCCAB4-59FF-4BA6-96B0-5496CF8FFDA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EBCCAB4-59FF-4BA6-96B0-5496CF8FFDA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD26DF3D-B456-46AD-A1EB-307307602CD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD26DF3D-B456-46AD-A1EB-307307602CD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD26DF3D-B456-46AD-A1EB-307307602CD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD26DF3D-B456-46AD-A1EB-307307602CD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27434400-7CC1-4C49-AE77-3D2C0C1F600C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27434400-7CC1-4C49-AE77-3D2C0C1F600C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27434400-7CC1-4C49-AE77-3D2C0C1F600C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27434400-7CC1-4C49-AE77-3D2C0C1F600C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5313666-7CC2-47E8-9C31-AD3D3F7E0473}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5313666-7CC2-47E8-9C31-AD3D3F7E0473}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5313666-7CC2-47E8-9C31-AD3D3F7E0473}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5313666-7CC2-47E8-9C31-AD3D3F7E0473}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE88CB16-AAD3-428C-8600-CC95C072D6AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE88CB16-AAD3-428C-8600-CC95C072D6AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE88CB16-AAD3-428C-8600-CC95C072D6AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE88CB16-AAD3-428C-8600-CC95C072D6AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35C3DB6E-1113-47FF-8F71-FCC09548B09B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35C3DB6E-1113-47FF-8F71-FCC09548B09B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35C3DB6E-1113-47FF-8F71-FCC09548B09B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35C3DB6E-1113-47FF-8F71-FCC09548B09B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FE7C4BB-1C1F-4932-A2DB-900ECE7AFA11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FE7C4BB-1C1F-4932-A2DB-900ECE7AFA11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FE7C4BB-1C1F-4932-A2DB-900ECE7AFA11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FE7C4BB-1C1F-4932-A2DB-900ECE7AFA11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{319664A8-37E6-418C-925C-CF6947604825}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{319664A8-37E6-418C-925C-CF6947604825}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{319664A8-37E6-418C-925C-CF6947604825}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{319664A8-37E6-418C-925C-CF6947604825}.Release|Any CPU.Build.0 = Release|Any CPU
+		{130E92DC-2A22-4649-A892-77B5018E6DE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{130E92DC-2A22-4649-A892-77B5018E6DE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{130E92DC-2A22-4649-A892-77B5018E6DE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{130E92DC-2A22-4649-A892-77B5018E6DE3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{27434400-7CC1-4C49-AE77-3D2C0C1F600C} = {1C0924B8-E9AB-41C3-B2FF-C79C8D63D297}
+		{AE88CB16-AAD3-428C-8600-CC95C072D6AF} = {1C0924B8-E9AB-41C3-B2FF-C79C8D63D297}
+		{319664A8-37E6-418C-925C-CF6947604825} = {1C0924B8-E9AB-41C3-B2FF-C79C8D63D297}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BB2FDB62-96F4-44A6-898B-841DCDFB98C2}
+	EndGlobalSection
+EndGlobal

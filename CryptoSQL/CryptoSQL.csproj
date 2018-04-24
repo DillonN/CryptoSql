@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <Company>Newell Labs</Company>
+    <Authors>Newell Labs</Authors>
+    <Product>CryptoSQL</Product>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CryptoSql.Blockchain.Ethereum\CryptoSql.Blockchain.Ethereum.csproj" />
+    <ProjectReference Include="..\CryptoSql.Common\CryptoSql.Common.csproj" />
+    <ProjectReference Include="..\CryptoSql.MySql\CryptoSql.MySql.csproj" />
+  </ItemGroup>
+
+</Project>
