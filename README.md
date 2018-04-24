@@ -1,1 +1,3 @@
-<a href="https://ci.newell-labs.ca//viewType.html?buildTypeId=CryptoSql_Build&guest=1"><img src="https://ci.newell-labs.ca/app/rest/builds/buildType:CryptoSql_Build/statusIcon.svg"/></a>
+# CryptoSql
+
+CryptoSql is a custom MySQL server that uses the Ethereum blockchain as storage backing. It is intended for **research use only**. **Any use, particularly in production or on a live network, is at your own risk**.
